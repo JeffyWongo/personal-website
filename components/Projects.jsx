@@ -16,12 +16,12 @@ const Projects = () => {
         <ProjectItem
           title="RateMyItinerary"
           backgroundImg={itinerary}
-          projectUrl="https://devpost.com/software/ratemyitinerary"
+          projectUrl="/itineraryPage"
         />
         <ProjectItem
           title="RateMyItinerary"
           backgroundImg={itinerary}
-          projectUrl="https://devpost.com/software/ratemyitinerary"
+          projectUrl="/itineraryPage"
         />
         
       </div>

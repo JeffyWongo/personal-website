@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -22,18 +23,26 @@ const Main = () => {
             simultaneously learning back-end technologies
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <Link href='https://www.linkedin.com/in/jeffhwang9' target="_blank">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
               <FaLinkedinIn />
             </div>
+            </Link>
+            <Link href='https://github.com/JeffyWongo' target="_blank">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
               <FaGithub />
             </div>
+            </Link>
+            <Link href='mailto:jeffhwang9@gmail.com' target="_blank">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
               <AiOutlineMail />
             </div>
+            </Link>
+            <Link href='/resume.pdf' target="_blank">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>
+            </Link>
           </div>
         </div>
       </div>

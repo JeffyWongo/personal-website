@@ -14,41 +14,56 @@ const Skills = () => {
 
           <CustomSkill
             title='HTML'
+            picture='html'
           />
           <CustomSkill
             title='CSS'
+            picture='css'
           />  
           <CustomSkill
             title='Javascript'
+            picture='javascript'
           />
           <CustomSkill
             title='React'
+            picture='react'
           />
           <CustomSkill
             title='Next'
+            picture='next'
           />
           <CustomSkill 
             title='Tailwind'
+            picture='tailwind'
           />
           <CustomSkill
             title='Node'
+            picture='node'
           />
           <CustomSkill
             title='C++'
+            picture='c++'
+          />
+          <CustomSkill
+            title='Java'
+            picture='java3'
           />
           <CustomSkill
             title='Python'
+            picture='python'
           />
           <CustomSkill
             title='MongoDB'
+            picture='mongodb'
           />
           <CustomSkill
             title='R'
+            picture='r3'
           /> 
           <CustomSkill
             title='Github'
+            picture='github'
           /> 
-          
           
         </div>
       </div>
