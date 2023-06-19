@@ -1,7 +1,7 @@
 import React from "react";
-import itinerary from "../public/assets/projects/itinerary.png";
+import iti from "../public/assets/projects/itinerary.png";
 import ProjectItem from "./ProjectItem";
-import itineraryPage from "@/pages/itineraryPage";
+import itinerary from "@/app/itinerary/page";
 
 const Projects = () => {
   return (
@@ -11,19 +11,17 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
-        <div className="grid md:grid-cols-2 gap-8"></div>
+        <div className="grid grid-cols-2 gap-8">
 
         <ProjectItem
           title="RateMyItinerary"
-          backgroundImg={itinerary}
-          projectUrl="/itineraryPage"
+          backgroundImg={iti}
         />
         <ProjectItem
           title="RateMyItinerary"
-          backgroundImg={itinerary}
-          projectUrl="/itineraryPage"
+          backgroundImg={iti}
         />
-        
+        </div>
       </div>
     </div>
   );

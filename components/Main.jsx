@@ -1,17 +1,17 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsFillMoonStarsFill } from "react-icons/bs";
 import Link from "next/link";
 
-const Main = () => {
+const Main = ({darkMode}) => {
+
   return (
-    <div id='home' className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center dark:bg-gray-900">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET'S BUILD SOMETHING TOGETHER
-          </p>
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]"> Jeff</span>
           </h1>
@@ -23,25 +23,20 @@ const Main = () => {
             simultaneously learning back-end technologies
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <Link href='https://www.linkedin.com/in/jeffhwang9' target="_blank">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
+            <Link href="https://www.linkedin.com/in/jeffhwang9" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
             </Link>
-            <Link href='https://github.com/JeffyWongo' target="_blank">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaGithub />
-            </div>
+            <Link href="https://github.com/JeffyWongo" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaGithub />
+              </div>
             </Link>
-            <Link href='mailto:jeffhwang9@gmail.com' target="_blank">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            </Link>
-            <Link href='/resume.pdf' target="_blank">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <Link href="mailto:jeffhwang9@gmail.com" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
             </Link>
           </div>
         </div>

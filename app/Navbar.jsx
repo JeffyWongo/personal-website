@@ -5,11 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill} from "react-icons/bs";
+import ThemeButton from "./ThemeButton";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
 
   const handleNav = () => {
     setNav(!nav);
@@ -30,21 +34,26 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-16 shadow-xl transition-all duration-300 dark:border-gray-700"
+          : "fixed w-full h-28 transition-all duration-300 dark:border-gray-700"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <div className="ml-5 text-3xl uppercase hover:border-b">
+          <div
+            className={
+              shadow
+                ? "ml-48 text-2xl uppercase hover:border-b transition-all duration-300"
+                : "ml-48 text-3xl uppercase hover:border-b transition-all duration-300"
+            }
+            alt="name"
+          >
             Jeff Hwang
           </div>
         </Link>
         <div>
-          <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
+          <ul className="hidden md:flex justify-center items-center">
+            {mounted && <ThemeButton />}
             <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
@@ -60,6 +69,9 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
+            </Link>
+            <Link href="/resume.pdf" target="_blank">
+              <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
