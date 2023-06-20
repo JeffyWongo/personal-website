@@ -25,24 +25,24 @@ const Skills = () => {
             picture='javascript'
           />
           <CustomSkill
-            title='React'
+            title='React.js'
             picture='react'
           />
           <CustomSkill
-            title='Next'
-            picture='next'
+            title='Next.js'
+            picture='nextjs'
           />
           <CustomSkill 
             title='Tailwind'
             picture='tailwind'
           />
           <CustomSkill
-            title='Node'
+            title='Node.js'
             picture='node'
           />
           <CustomSkill
             title='C++'
-            picture='c++'
+            picture='c++2'
           />
           <CustomSkill
             title='Java'

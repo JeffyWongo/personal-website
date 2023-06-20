@@ -43,8 +43,8 @@ const Navbar = () => {
           <div
             className={
               shadow
-                ? "ml-48 text-2xl uppercase hover:border-b transition-all duration-300"
-                : "ml-48 text-3xl uppercase hover:border-b transition-all duration-300"
+                ? "ml-4 text-2xl uppercase hover:border-b transition-all duration-300"
+                : "ml-4 text-3xl uppercase hover:border-b transition-all duration-300"
             }
             alt="name"
           >
@@ -74,46 +74,41 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden cursor-pointer">
+          <div className="md:hidden flex">
+          {mounted && <ThemeButton />}
+          
+          <div onClick={handleNav} className="md:hidden cursor-pointer flex justify-center items-center px-5">
             <AiOutlineMenu size={25} />
+          </div>
           </div>
         </div>
       </div>
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 " : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 dark:bg-gray-900 dark:text-gray-100"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
-          <div>
+          <div className="">
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <Image
-                  onClick={() => setNav(false)}
-                  src="/cover.jpg"
-                  width="87"
-                  height="35"
-                  alt="/"
-                />
+              <Link href="/" className="font-bold text-2xl">
+                JEFF HWANG
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-sm dark:border dark:border-gray-400"
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together
-              </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -153,22 +148,22 @@ const Navbar = () => {
                   href="https://www.linkedin.com/in/jeffhwang9"
                   target="_blank"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-sm dark:border dark:border-gray-400">
                     <FaLinkedinIn />
                   </div>
                 </Link>
                 <Link href="https://github.com/JeffyWongo" target="_blank">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-sm dark:border dark:border-gray-400">
                     <FaGithub />
                   </div>
                 </Link>
                 <Link href="mailto:jeffhwang9@gmail.com" target="_blank">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-sm dark:border dark:border-gray-400">
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <Link href="/resume.pdf" target="_blank">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-sm dark:border dark:border-gray-400">
                     <BsFillPersonLinesFill />
                   </div>
                 </Link>

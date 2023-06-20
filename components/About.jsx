@@ -10,9 +10,9 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5] py-4">
             About
           </p>
-          <h2 classname="py-4">Who I Am</h2>
+          <h2 classname="py-4 text-gray-700 dark:text-gray-200">Who I Am</h2>
 
-          <p className="py-4 text-gray-600">
+          <p className="py-4 text-gray-600 dark:text-gray-400">
             I am currently a third-year student at the University of California,
             Riverside, working towards a Bachelor's Degree in Data Science. I
             was born and raised in Orange, California, where I grew up with interests such as
@@ -22,13 +22,13 @@ const About = () => {
             in search of a new dining spot.
           </p>
           <Link href="/#projects">
-          <p className="py-4 text-gray-600 underline cursor-pointer">
+          <p className="py-4 text-gray-900 underline cursor-pointer dark:text-gray-300">
             Check out some of my latest projects.
           </p>
           </Link>
         </div>
 
-        <div className="col-span-2 h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300">
+        <div className="dark:shadow-md dark:border dark:border-gray-400 col-span-2 h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300">
           <img src="/cover.jpg" className="h-80 rounded-xl" />
         </div>
       </div>
