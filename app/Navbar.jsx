@@ -6,7 +6,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill} from "react-icons/bs";
-import ThemeButton from "../app/ThemeButton";
+import ThemeButton from "./ThemeButton";
 import { useRouter } from "next/navigation";
 
 const Navbar = () => {

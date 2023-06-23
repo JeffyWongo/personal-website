@@ -3,7 +3,7 @@ import React from "react";
 import itinerary from "../../public/assets/projects/itinerary.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/Navbar";
 
 const itineraryPage = () => {
   return (
