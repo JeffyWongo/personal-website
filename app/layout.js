@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from 'next-themes'
 import './globals.css'
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 
 
 export const metadata = {

@@ -6,12 +6,13 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill} from "react-icons/bs";
-import ThemeButton from "./ThemeButton";
+import ThemeButton from "../app/ThemeButton";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  
+
   const [mounted, setMounted] = useState(false)
   useEffect(() => setMounted(true), [])
 
@@ -34,8 +35,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-16 shadow-xl transition-all duration-300 dark:border-gray-700"
-          : "fixed w-full h-28 transition-all duration-300 dark:border-gray-700"
+          ? "fixed w-full h-16 z-50 shadow-xl transition-all duration-300 dark:border-gray-700"
+          : "fixed w-full h-28 z-50 transition-all duration-300 dark:border-gray-700"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -53,25 +54,25 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className="hidden md:flex justify-center items-center">
-            {mounted && <ThemeButton />}
+            {mounted && <ThemeButton className='mx-5' />}
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="mx-5 text-sm uppercase hover:border-b ml-10">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="mx-5 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="mx-5 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="mx-5 text-sm uppercase hover:border-b">
                 Contact
               </li>
             </Link>
             <Link href="/resume.pdf" target="_blank">
-              <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
+              <li className="mx-5 text-sm uppercase hover:border-b">Resume</li>
             </Link>
           </ul>
           <div className="md:hidden flex">

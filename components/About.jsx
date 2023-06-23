@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-4 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5] py-4">
@@ -12,19 +12,38 @@ const About = () => {
           </p>
           <h2 classname="py-4 text-gray-700 dark:text-gray-200">Who I Am</h2>
 
-          <p className="py-4 text-gray-600 dark:text-gray-400">
-            I am currently a third-year student at the University of California,
+          <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
+            I am currently a third-year student at University of California,
             Riverside, working towards a Bachelor's Degree in Data Science. I
-            was born and raised in Orange, California, where I grew up with interests such as
-            gaming, particularly Maplestory and League of Legends. In addition
-            to spending time online with friends, you might also find me watching a
-            NBA basketball game, curating my playlist with new songs, or
-            in search of a new dining spot.
+            was born and raised in Orange, California, where I grew up with
+            interests such as gaming and building computers. With diverse
+            experience in fields such as traffic engineering and healthcare, it
+            allows me to tackle various projects with ease. I am always eager to explore new
+            technologies and expand my skill set, with collaborative environments
+            fueling my growth.
           </p>
+          <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
+            When I'm not clacking away on my keyboard, I enjoy doing any of the
+            following:
+          </p>
+          <ul className="flex justify-around items-start">
+            <div>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Building mechanical keyboards</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Gaming</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Watching NBA Basketball</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Exploring new songs</li>
+            </div>
+            <div>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Cooking</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Learning new skills</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Building computers</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Searching for new dining spots</li>
+            </div>
+          </ul>
           <Link href="/#projects">
-          <p className="py-4 text-gray-900 underline cursor-pointer dark:text-gray-300">
-            Check out some of my latest projects.
-          </p>
+            <p className="py-4 text-gray-900 underline cursor-pointer dark:text-gray-300 text-lg">
+              Check out some of my latest projects.
+            </p>
           </Link>
         </div>
 

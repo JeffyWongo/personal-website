@@ -37,7 +37,7 @@ const Skills = () => {
             picture='tailwind'
           />
           <CustomSkill
-            title='Node.js'
+            title='Nodejs'
             picture='node'
           />
           <CustomSkill
