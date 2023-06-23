@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import itinerary from "@/app/itinerary/page";
 import { useState } from "react";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
