@@ -44,12 +44,12 @@ const Navbar = () => {
           <div
             className={
               shadow
-                ? "ml-4 text-2xl uppercase hover:border-b transition-all duration-300"
-                : "ml-4 text-3xl uppercase hover:border-b transition-all duration-300"
+                ? "ml-4 text-2xl font-semibold hover:border-b transition-all duration-300 text-gray-700 dark:text-gray-200"
+                : "ml-4 text-3xl font-semibold hover:border-b transition-all duration-300 text-gray-700 dark:text-gray-200"
             }
             alt="name"
           >
-            Jeff Hwang
+            JEFF HWANG
           </div>
         </Link>
         <div>

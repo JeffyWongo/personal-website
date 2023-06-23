@@ -25,6 +25,19 @@ const Contact = () => {
     });
   };
 
+  const notifyError = () => {
+    toast.error('Error Sending Message.', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  };
+
   async function handleSubmit(event) {
     event.preventDefault();
     setLoading(true);
@@ -55,6 +68,7 @@ const Contact = () => {
     if (!response.ok) {
       console.log("Error sending message");
       setLoading(false);
+      notifyError()
     }
   }
 

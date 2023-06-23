@@ -95,19 +95,16 @@ const tootrPage = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> Next.js
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Typescript
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> Express.js
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> MongoDB
+                <RiRadioButtonFill className="pr-1" /> Prisma
               </p>
             </div>
           </div>
