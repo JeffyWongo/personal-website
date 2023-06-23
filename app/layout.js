@@ -1,7 +1,5 @@
-import ThemeProvider from './theme-provider'
 import './globals.css'
 import Navbar from '../components/Navbar'
-
 
 export const metadata = {
   title: 'Jeff | Full-Stack Developer',
@@ -12,10 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='relative'>
-        <ThemeProvider>
         <Navbar />
         <div>{children}</div>
-        </ThemeProvider>
       </body>
     </html>
   )

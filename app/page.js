@@ -9,16 +9,19 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
+import ThemeProvider from './theme-provider';
 
 
 export default function Home() {
   return (
     <div>
+      <ThemeProvider>
       <Main />
       <About />
       <Skills />
       <Projects />
       <Contact />
+      </ThemeProvider>
     </div>
   )
 }
