@@ -47,8 +47,8 @@ const About = () => {
           </Link>
         </div>
 
-        <div className="dark:shadow-md dark:border dark:border-gray-400 col-span-2 h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300">
-          <img src="/cover.jpg" className="h-80 rounded-xl" />
+        <div className="dark:shadow-md dark:border dark:border-gray-400 min-w-[480px] col-span-2 h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300">
+          <img src="/cover2.png" className="h-80 rounded-xl" />
         </div>
       </div>
     </div>
