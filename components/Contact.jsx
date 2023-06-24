@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
