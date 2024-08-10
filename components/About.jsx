@@ -12,11 +12,11 @@ const About = () => {
           <h2 classname="py-4 text-gray-700 dark:text-gray-200">Who I Am</h2>
 
           <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
-            I am currently a third-year student at University of California,
+            I am currently a fourth-year student at University of California,
             Riverside, working towards a Bachelor's Degree in Data Science. I
             was born and raised in Orange, California, where I grew up with
             interests such as gaming and building computers. With diverse
-            experience in fields such as traffic engineering and healthcare, it
+            experience in fields such as engineering and healthcare, it
             allows me to tackle various projects with ease. I am always eager to explore new
             technologies and expand my skill set, with collaborative environments
             fueling my growth.
