@@ -12,7 +12,7 @@ const About = () => {
           <h2 classname="py-4 text-gray-700 dark:text-gray-200">Who I Am</h2>
 
           <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
-            I am currently recently graduated at University of California,
+            I am a recent graduate at the University of California,
             Riverside, with a Bachelor's Degree in Data Science. I
             was born and raised in Orange, California, where I grew up with
             interests such as gaming and building computers. With diverse
@@ -25,11 +25,11 @@ const About = () => {
           </p>
           <ul className="flex justify-around items-start">
             <div>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Pickleball</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Building mechanical keyboards</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Gaming</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Watching NBA Basketball</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Exploring new songs</li>
-              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Pickleball</li>
             </div>
             <div>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Tennis</li>

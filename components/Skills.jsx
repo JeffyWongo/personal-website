@@ -18,7 +18,7 @@ const Skills = () => {
           />
           <CustomSkill
             title='Tableau'
-            picture='tableau'
+            picture='tableau2'
           />
           <CustomSkill
             title='SQL'
