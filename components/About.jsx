@@ -12,14 +12,12 @@ const About = () => {
           <h2 classname="py-4 text-gray-700 dark:text-gray-200">Who I Am</h2>
 
           <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
-            I am currently a fourth-year student at University of California,
-            Riverside, working towards a Bachelor's Degree in Data Science. I
+            I am currently recently graduated at University of California,
+            Riverside, with a Bachelor's Degree in Data Science. I
             was born and raised in Orange, California, where I grew up with
             interests such as gaming and building computers. With diverse
-            experience in fields such as engineering and healthcare, it
-            allows me to tackle various projects with ease. I am always eager to explore new
-            technologies and expand my skill set, with collaborative environments
-            fueling my growth.
+            experience in fields such as traffic engineering and healthcare, I am always eager to explore new
+            technologies and expand my skill set.
           </p>
           <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
             When I'm not clacking away on my keyboard, I enjoy doing any of the
@@ -31,8 +29,10 @@ const About = () => {
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Gaming</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Watching NBA Basketball</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Exploring new songs</li>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Pickleball</li>
             </div>
             <div>
+              <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Tennis</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Cooking</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Learning new skills</li>
               <li className="text-gray-600 dark:text-gray-400 text-lg">&#x2022; Building computers</li>

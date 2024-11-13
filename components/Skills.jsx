@@ -13,6 +13,34 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           <CustomSkill
+            title='Python'
+            picture='python'
+          />
+          <CustomSkill
+            title='Tableau'
+            picture='tableau'
+          />
+          <CustomSkill
+            title='SQL'
+            picture='sql'
+          />
+          <CustomSkill
+            title='Excel'
+            picture='excel'
+          />
+          <CustomSkill
+            title='R'
+            picture='r3'
+          />
+          <CustomSkill
+            title='C++'
+            picture='c++2'
+          />
+          <CustomSkill
+            title='Java'
+            picture='java3'
+          />
+          <CustomSkill
             title='HTML'
             picture='html'
           />
@@ -24,42 +52,6 @@ const Skills = () => {
             title='Javascript'
             picture='javascript'
           />
-          <CustomSkill
-            title='React.js'
-            picture='react'
-          />
-          <CustomSkill
-            title='Next.js'
-            picture='nextjs'
-          />
-          <CustomSkill 
-            title='Tailwind'
-            picture='tailwind'
-          />
-          <CustomSkill
-            title='Nodejs'
-            picture='node'
-          />
-          <CustomSkill
-            title='C++'
-            picture='c++2'
-          />
-          <CustomSkill
-            title='Java'
-            picture='java3'
-          />
-          <CustomSkill
-            title='Python'
-            picture='python'
-          />
-          <CustomSkill
-            title='MongoDB'
-            picture='mongodb'
-          />
-          <CustomSkill
-            title='R'
-            picture='r3'
-          /> 
           <CustomSkill
             title='Github'
             picture='github'

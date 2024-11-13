@@ -90,7 +90,7 @@ const Contact = () => {
               </div>
               <div className="">
                 <h2 className="py-2">Jeff Hwang</h2>
-                <p>Full-Stack Developer</p>
+                <p>Data Analyst</p>
               </div>
               <p className="uppercase pt-8">Connect With Me</p>
               <div className="flex items-center py-4">
