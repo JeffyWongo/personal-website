@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <div>
       <Main />
-      <About />
       <Skills />
       <Projects />
+      <About />
       <Contact />
     </div>
   )

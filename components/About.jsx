@@ -15,9 +15,7 @@ const About = () => {
             I am a recent graduate at the University of California,
             Riverside, with a Bachelor's Degree in Data Science. I
             was born and raised in Orange, California, where I grew up with
-            interests such as gaming and building computers. With diverse
-            experience in fields such as traffic engineering and healthcare, I am always eager to explore new
-            technologies and expand my skill set.
+            interests such as gaming and building computers.
           </p>
           <p className="py-4 text-gray-600 dark:text-gray-400 text-lg">
             When I'm not clacking away on my keyboard, I enjoy doing any of the
