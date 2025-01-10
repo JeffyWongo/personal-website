@@ -55,21 +55,17 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex justify-center items-center">
             {mounted && <ThemeButton className='mx-5' />}
-            <Link href="/#about">
-              <li className="mx-5 text-sm uppercase hover:border-b ml-10">About</li>
-            </Link>
             <Link href="/#skills">
               <li className="mx-5 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="mx-5 text-sm uppercase hover:border-b">
-                Projects
-              </li>
+              <li className="mx-5 text-sm uppercase hover:border-b">Projects</li>
+            </Link>
+            <Link href="/#about">
+              <li className="mx-5 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#contact">
-              <li className="mx-5 text-sm uppercase hover:border-b">
-                Contact
-              </li>
+              <li className="mx-5 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <Link href="/resume.pdf" target="_blank">
               <li className="mx-5 text-sm uppercase hover:border-b">Resume</li>

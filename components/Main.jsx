@@ -17,7 +17,7 @@ const Main = ({darkMode}) => {
           </h1>
           {/* <h3 className="py-2 text-gray-700 dark:text-gray-200">An Aspiring Data Engineer</h3> */}
           <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-gray-400">
-            I'm an aspiring Data Engineer who is passionate about anything related to data. Currently,
+            I'm an aspiring Data Analyst who is passionate about anything related to data. Currently,
             I'm working on improving my skills in PowerBI.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-gray-400">Want to collab or have a chat? Let's get in touch!</p>

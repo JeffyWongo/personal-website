@@ -16,22 +16,22 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
 
         <ProjectItem
-          title="RateMyItinerary"
-          backgroundImg={iti}
-          projectUrl="/itinerary"
-          tech='HTML, CSS, JavaScript, Express, MongoDB'
-        />
-        <ProjectItem
-          title="Tootr"
-          backgroundImg={tootr}
-          projectUrl="/tootr"
-          tech='Next.js, Typescript, Firebase, Prisma'
+          title="Adult Income Prediction Model"
+          backgroundImg={aerosol}
+          projectUrl="/aerosol"
+          tech='Python, pandas, NumPy, tensorflow, scikit-learn, aequitas'
         />
         <ProjectItem
           title="Aerosol Concentration Predictor"
           backgroundImg={aerosol}
           projectUrl="/aerosol"
           tech='Python, pandas, NumPy, Matplotlib, scikit-learn, seaborn'
+        />
+        <ProjectItem
+          title="RateMyItinerary"
+          backgroundImg={iti}
+          projectUrl="/itinerary"
+          tech='HTML, CSS, JavaScript, Express, MongoDB'
         />
         <ProjectItem
           title="OrganicDB"
