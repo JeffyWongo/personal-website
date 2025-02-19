@@ -1,9 +1,10 @@
 import React from "react";
 import iti from "../public/assets/projects/itinerary.png";
 import ProjectItem from "./ProjectItem";
-import tootr from "../public/assets/projects/tootr.png"
 import aerosol from "../public/assets/projects/aerosol3.png"
 import organicdb from "../public/assets/projects/organicdb.png"
+import income from "../public/assets/projects/income.png"
+import marketing from "../public/assets/projects/marketing.png"
 
 const Projects = () => {
   return ( 
@@ -16,10 +17,16 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
 
         <ProjectItem
+          title="Marketing Analysis"
+          backgroundImg={marketing}
+          projectUrl="/marketing"
+          tech='Microsoft SQL Server, Python, pandas, PowerBI'
+        />
+        <ProjectItem
           title="Adult Income Prediction Model"
-          backgroundImg={aerosol}
-          projectUrl="/aerosol"
-          tech='Python, pandas, NumPy, tensorflow, scikit-learn, aequitas'
+          backgroundImg={income}
+          projectUrl="/income"
+          tech='Python, pandas, NumPy, tensorflow, scikit-learn'
         />
         <ProjectItem
           title="Aerosol Concentration Predictor"

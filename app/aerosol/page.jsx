@@ -101,7 +101,7 @@ const aerosolPage = () => {
                 <RiRadioButtonFill className="pr-1" /> Matplotlib
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" /> sckikit-learn
+                <RiRadioButtonFill className="pr-1" /> scikit-learn
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" /> seaborn
